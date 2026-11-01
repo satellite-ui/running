@@ -12,6 +12,11 @@
     "test": "node build.cjs && node --test tests/*.test.cjs",
     "dist": "node build.cjs && electron-builder --win portable --x64"
   },
+ "pnpm": {
+  "onlyBuiltDependencies": [
+    "electron"
+  ]
+},
   "devDependencies": {
     "electron": "44.7.2",
     "electron-builder": "26.15.3"
