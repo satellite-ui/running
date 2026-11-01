@@ -13,10 +13,10 @@
     "dist": "node build.cjs && electron-builder --win portable --x64"
   },
  "pnpm": {
-  "onlyBuiltDependencies": [
-    "electron"
-  ]
-},
+    "onlyBuiltDependencies": [
+      "electron"
+    ]
+  },
   "devDependencies": {
     "electron": "44.7.2",
     "electron-builder": "26.15.3"
