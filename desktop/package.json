@@ -19,7 +19,6 @@
   "build": {
     "appId": "local.huati.desktop",
     "asar": true,
-    "electronDist": "node_modules/electron/dist",
     "directories": {"output": "../dist/windows-v2.1.1", "buildResources": "resources"},
     "files": ["main.cjs", "engine.cjs", "preload.cjs", "ui/**", "vendor/**", "resources/app.ico", "package.json"],
     "win": {"icon": "resources/app.ico", "target": ["portable"], "signExecutable": false},
